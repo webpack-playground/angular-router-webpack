@@ -1,0 +1,7 @@
+bin
+obj
+node_modules
+temp
+dist
+*.map
+typings

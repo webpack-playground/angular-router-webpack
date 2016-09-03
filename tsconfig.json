@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "temp",
+        "target": "es6",
+        "module": "commonjs",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "removeComments": false,
+        "noImplicitAny": false,
+        "strictNullChecks": false
+    },
+    "compilerOnSave": true,
+    "filesGlob": [
+        "./src/**/*.ts"
+    ],
+    "files": [
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
