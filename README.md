@@ -121,12 +121,12 @@ module.exports = {
 
 ## 4. Bundle ไฟล์
 
-    > `webapck`
+> webpack
 
 ## การโหลด Template
 
 ในกรณีที่ต้องการแยก Template ของ Component ออกเป็นไฟล์ Html ซึ่งปกติจะใช้ `tempalteUrl: <filePath>.html`
-ถ้าต้องการให้ Webpack Bundle ไปรวมกับ JavaScript ให้เปลี่ยนมาใช้ `template: require('./<fileName>.html')` แทน
+ถ้าต้องการให้ Webpack bundle ไปรวมกับ JavaScript ให้เปลี่ยนมาใช้ `template: require('./<fileName>.html')` แทน
 
 - วิธีนี้จะใช้ได้กับ awesome-typescript-loader
 - ไม่จะเป็นต้องใช้ angular2-template-loader
