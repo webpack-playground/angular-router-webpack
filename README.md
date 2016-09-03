@@ -1,5 +1,7 @@
 ## Angular 2 RC.6 + Router + Webpack
 
+![](screen/angular-router-webpack.png)
+
 จาก Angular 2 RC.4 เปลี่ยนเป็น RC.5 RC.6 มี Break change ลอง Migrate ที่ Production แล้วไม่ผ่าน
 จึงต้องลองใหม่ตั้งแต่ตัน
 
@@ -98,7 +100,7 @@ module.exports = {
     module: {
         loaders: [
             { test: /\.css$/, loader: "style-loader!css-loader" },
-            { test: /\.tsx?$/, loaders: ["ts-loader", "angular2-template-loader"] },
+            { test: /\.tsx?$/, loaders: ["awesome-typescript-loader"] },
             { test: /\.(eot|woff|woff2|ttf|svg|png|jpg)$/, loader: 'url-loader?limit=30000&name=assets/[name]-[hash].[ext]' },
             { test: /\.html$/, loader: 'html-loader' }
         ],

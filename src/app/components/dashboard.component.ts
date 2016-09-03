@@ -1,7 +1,9 @@
 import { Component } from "@angular/core";
 
+declare var require: (any);
+
 @Component({
-    template: "Dashboard"
+    template: require("./dashboard.component.html")
 })
 export class DashboardComponent {
 

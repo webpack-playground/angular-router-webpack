@@ -28,7 +28,7 @@ module.exports = {
         loaders: [
             // All files with a '.ts' or '.tsx' extension will be handled by 'ts-loader'.
             { test: /\.css$/, loader: "style-loader!css-loader" },
-            { test: /\.tsx?$/, loaders: ["ts-loader", "angular2-template-loader"] },
+            { test: /\.tsx?$/, loaders: ["awesome-typescript-loader"] },
             { test: /\.(eot|woff|woff2|ttf|svg|png|jpg)$/, loader: 'url-loader?limit=30000&name=assets/[name]-[hash].[ext]' },
             { test: /\.html$/, loader: 'html-loader' }
         ],
