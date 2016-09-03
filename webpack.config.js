@@ -28,12 +28,9 @@ module.exports = {
         loaders: [
             // All files with a '.ts' or '.tsx' extension will be handled by 'ts-loader'.
             { test: /\.css$/, loader: "style-loader!css-loader" },
-            // { test: /\.tsx?$/, loaders: ["ts-loader", "angular2-template-loader"],  exclude: [/\.(spec|e2e)\.ts$/] },
-            //{ test: /\.tsx?$/, loaders: ["ts-loader"],  exclude: [/\.(spec|e2e)\.ts$/, "node_modules"] },
             { test: /\.tsx?$/, loaders: ["ts-loader", "angular2-template-loader"] },
             { test: /\.(eot|woff|woff2|ttf|svg|png|jpg)$/, loader: 'url-loader?limit=30000&name=assets/[name]-[hash].[ext]' },
             { test: /\.html$/, loader: 'html-loader' }
-             //{ test: /\.html$/, loader: 'raw-loader' },
         ],
 
         preLoaders: [
@@ -43,10 +40,6 @@ module.exports = {
     },
 
     plugins: [
-        new webpack.ProvidePlugin({
-          $: "jquery",
-          jQuery: "jquery",
-        }),
         new HtmlWebpackPlugin({
           filename: "index.html",
           template: "src/index.html"

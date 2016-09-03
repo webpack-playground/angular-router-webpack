@@ -1,0 +1,19 @@
+a.menu {
+    margin: 5px;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+div.content {
+    margin: 10px;
+    margin-top: 20px;
+}
+
+body {
+    padding: 20px;
+}
+
+.active {
+    font-weight: bolder;
+}
