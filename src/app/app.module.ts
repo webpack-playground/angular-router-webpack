@@ -10,14 +10,6 @@ import { DashboardComponent} from "./components/dashboard.component";
 import { LoginComponent } from "./components/login.component";
 import { routes } from "./app.router";
 
-/*
-@NgModule({
-    imports: [ BrowserModule],
-    declarations: [ AppComponent ],
-    bootstrap: [AppComponent]
-})
-*/
-
 @NgModule({
     declarations: [
         AppComponent,
